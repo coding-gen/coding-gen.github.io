@@ -1,4 +1,9 @@
-# Project Portfolio
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
 
 This portfolio demonstrates some of the work I've done while earning my masters in computer science specializing in Natural Language Processing, while working at SingleStore, as well as for personal coding projects.
 
@@ -11,6 +16,7 @@ My dual interests in computer science and human languages has drawn me in to stu
 While a lot of NLP engineers come from a purely Machine Learning viewpoint, I bring additional background in linguistics. As a polyglot, I speak four languages: English, Spanish, French, and German. I'm always looking to learn new languages. I've dabbled in Arabic, Russian, and Wolof and am currently studying Japanese! This linguistic background has provided me with a deep understanding of the complexities of language, and how it can be processed and analyzed by machine learning models. My diverse background and experience give me a unique perspective that will be valuable in solving complex NLP challenges.
 
 With this combination of skills in NLP, ML, Data Engineering, and linguistics, I'm excited to pursue a role as an NLP Engineer. Please see this portfolio as examples of my work in this area.
+
 
 ## Other
 Check back for more projects later!
