@@ -1,6 +1,10 @@
-# Project Portfolio
+---
+layout: default
+title: About
+---
+# About page
 
-This portfolio demonstrates some of the work I've done while earning my masters in computer science specializing in Natural Language Processing, while working at SingleStore, as well as for personal coding projects.
+This page tells you a little bit about me.
 
 # Fun quote
 You might say my first language was C, but I was studying Spanish even before that! 
