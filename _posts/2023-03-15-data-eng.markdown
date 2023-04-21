@@ -2,9 +2,13 @@
 layout: post
 title:  "C-Tran Breadcrumbs Pipeline"
 date:   2021-03-15 15:00:44 -0800
-categories: Data
+tags: Databases
 ---
 
-Kafka data pipeline handling realtime C-Tran bus data. For the course: Data Engineering. I won first prizes for best presentation, and for best extended features (I added logging, data backups and multiple modes of ingestion, as well as a guarantee to insert only once to protect from collisions)
+Kafka data pipeline handling realtime C-Tran bus data. 
+
+For the course: Data Engineering. I won first prizes for best presentation, and for best extended features (I added logging, data backups and multiple modes of ingestion, as well as a guarantee to insert only once to protect from collisions)
 
 [Check out my presentation video on YouTube](https://www.youtube.com/watch?v=JPv2SXW0Kp4)
+
+[Check out the code on github](https://github.com/coding-gen/dataeng)
