@@ -1,0 +1,20 @@
+# install jekyll for terminal
+gem install jekyll bundler
+
+# create gemfile
+bundle init
+
+# install jekyll for project
+bundle
+
+jekyll build
+jekyll serve
+
+# set gems in gemfile and _config then run
+bundle update
+
+# prefix commands in order to use versions in the gemfile only
+bundle exec
+
+# set env in jekyll commands
+JEKYLL_ENV=production bundle exec jekyll build

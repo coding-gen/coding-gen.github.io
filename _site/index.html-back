@@ -14,14 +14,14 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Home","url":"/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Home","url":"/index.html-back"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
   <body>
     <nav>
   
-    <a href="/" class="current">Home</a>
+    <a href="/" >Home</a>
   
     <a href="/about.html" >About</a>
   
