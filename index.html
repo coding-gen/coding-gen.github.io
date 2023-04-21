@@ -2,10 +2,21 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
-
-This is an example jekyll site created as per the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
 
 # Project Portfolio
 
-This portfolio demonstrates some of the work I've done while earning my masters in computer science specializing in Natural Language Processing, while working at SingleStore, as well as for personal coding projects.
+This portfolio demonstrates some of the work I've done while earning my masters in computer science specializing in Natural Language Processing, while working at SingleStore, and personal coding projects.
+
+<h1>Projects</h1>
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
